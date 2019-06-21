@@ -22,8 +22,8 @@ import (
     "./cert"
 )
 
-//var server = "liambeckman.com:8181"
-var server = "localhost:8181"
+var server = "liambeckman.com:8181"
+//var server = "localhost:8181"
 
 var addr = flag.String("addr", server, "http service address")
 
@@ -41,7 +41,7 @@ func main() {
     //interrupt := make(chan os.Signal, 1)
     //signal.Notify(interrupt, os.Interrupt)
 
-    u := url.URL{Scheme: "ws", Host: *addr, Path: "/"}
+    u := url.URL{Scheme: "wss", Host: *addr, Path: "/"}
     log.Printf("connecting to %s", u.String())
     if err != nil {
         log.Fatal(err)
