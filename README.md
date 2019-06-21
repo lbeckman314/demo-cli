@@ -8,4 +8,4 @@ demo-web is a web-based client for demo-server. I wanted to see if I could write
 
 ![Image of demo-go running in TTY.](./tty.png)
 
-So if you're a minimalist or temrinal-aficionado, this is the demo package for you!
+So if you're a minimalist or terminal-aficionado, this is the demo package for you!
