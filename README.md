@@ -1,4 +1,4 @@
-# demo-go
+# demo-cli
 
 This is a CLI client for the [demo-server](https://github.com/lbeckman314/demo) project.
 
